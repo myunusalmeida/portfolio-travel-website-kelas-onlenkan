@@ -1,0 +1,13 @@
+.card-testimonial {
+    border-radius: $radius-large;
+
+    .card-body {
+        padding: 50px;
+
+        .testimonial-name {
+            color: $color-dark;
+            font-weight: 500;
+            font-size: $font-size-h5 + 2px;
+        }
+    }
+}

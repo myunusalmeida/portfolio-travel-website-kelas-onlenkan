@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.price {
+  color: #0A071C;
+  font-weight: 500;
+}
+
+section {
+  padding: 100px 0;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 50px 0;
+  }
+}
+
+section .section-title {
+  font-weight: 700;
+  font-size: 42px;
+  color: #0A071C;
+}
+
+section .section-title span {
+  color: #F46612;
+}
+
+section .section-description {
+  font-size: 16px;
+  color: #626262;
+}
+
+.btn-orange {
+  background-color: #F46612;
+  color: #FFFFFF;
+}
+
+.btn-orange:hover {
+  background-color: #F46612;
+  color: #FFFFFF;
+}
+
+.btn-card {
+  background-color: #FFFFFF;
+  border: 1px solid #626262;
+  color: #626262;
+  font-weight: 500;
+}
+
+.btn-card:hover {
+  background-color: #F46612;
+  border-color: #F46612;
+  color: #FFFFFF;
+}
+
+.form-control {
+  border-color: #E0E0E0;
+}
+
+.form-control:focus {
+  border-color: #F46612;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.input-group .input-group-text {
+  border-color: #E0E0E0;
+}
+
+.navbar .navbar-brand img {
+  width: 100px;
+}
+
+.navbar .navbar-nav {
+  gap: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #0A071C;
+  font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active, .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #F46612;
+}
+
+.card-testimonial {
+  border-radius: 20px;
+}
+
+.card-testimonial .card-body {
+  padding: 50px;
+}
+
+.card-testimonial .card-body .testimonial-name {
+  color: #0A071C;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.footer .footer-logo {
+  width: 100px;
+}
+
+.footer .section-description {
+  margin-top: 30px;
+}
+
+.footer .footer-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0A071C;
+}
+
+.footer .footer-list {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer-list a {
+  color: #626262;
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer .social-media-icons {
+  margin-top: 30px;
+}
+
+.footer .social-media-icons a {
+  width: 40px;
+  height: 40px;
+  background-color: #F46612;
+  color: #FFFFFF;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+.header {
+  padding: 50px 0;
+}
+
+.header .container {
+  background-color: rgba(244, 102, 18, 0.05);
+  border-radius: 20px;
+  padding: 100px;
+}
+
+.header .container .header-title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #0A071C;
+}
+
+.header .container .header-image {
+  width: 100%;
+}
+
+.header .container .logo-sponsored {
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .header .container {
+    padding: 50px;
+  }
+  .header .container .header-title {
+    font-size: 36px;
+  }
+  .header .container .header-image {
+    margin-top: 30px;
+  }
+}
+
+.testimonial {
+  background-color: rgba(244, 102, 18, 0.05);
+}
+
+.header .header-title-other-page {
+  font-size: 52px;
+  font-weight: 700;
+  color: #0A071C;
+}
+
+.detail-page .image-preview .hero-preview {
+  height: 460px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.detail-page .image-preview .image-preview-right {
+  height: 460px;
+  overflow-y: auto;
+}
+
+.detail-page .image-preview .image-preview-right .image-preview-small {
+  width: 100%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.detail-page .travel-detail .travel-detail-title {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.detail-page .travel-detail .detail-with-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.detail-page .travel-detail .travel-description-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.checkout .checkout-title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.checkout .card {
+  border-radius: 20px;
+}
+
+.checkout .card .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0A071C;
+}
+
+.checkout .card .travel-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0A071C;
+  margin-top: 10px;
+}
+
+.checkout .card .card-img {
+  height: 130px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */

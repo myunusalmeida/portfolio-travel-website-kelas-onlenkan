@@ -1,0 +1,14 @@
+.form-control {
+    border-color: $color-soft-grey;
+
+    &:focus {
+        border-color: $color-orange;
+        box-shadow: none;
+    }
+}
+
+.input-group {
+    .input-group-text {
+        border-color: $color-soft-grey
+    }
+}

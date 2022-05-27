@@ -1,0 +1,22 @@
+.btn-orange {
+    background-color: $color-orange;
+    color: $color-white;
+
+    &:hover {
+        background-color: $color-orange;
+        color: $color-white;
+    }
+}
+
+.btn-card {
+    background-color: $color-white;
+    border: 1px solid $color-grey;
+    color: $color-grey;
+    font-weight: 500;
+
+    &:hover {
+        background-color: $color-orange;
+        border-color: $color-orange;
+        color: $color-white;
+    }
+}

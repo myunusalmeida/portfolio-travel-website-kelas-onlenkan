@@ -1,0 +1,41 @@
+.header {
+    padding: 50px 0;
+
+    .container {
+        background-color: $color-soft-orange;
+        border-radius: $radius-large;
+        padding: 100px;
+
+        .header-title {
+            font-size: $font-size-h1;
+            font-weight: 700;
+            color: $color-dark
+        }
+
+        .header-image {
+            width: 100%;
+        }
+
+        .logo-sponsored {
+            width: 100px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .container {
+            padding: 50px;
+
+            .header-title {
+                font-size: $font-size-h3;
+            }
+
+            .header-image {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+.testimonial {
+    background-color: $color-soft-orange
+}

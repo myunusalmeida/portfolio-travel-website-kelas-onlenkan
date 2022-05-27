@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.price {
+    color: $color-dark;
+    font-weight: 500;
+}
+
+section {
+    padding: 100px 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 50px 0;
+    }
+
+    .section-title {
+        font-weight: 700;
+        font-size: $font-size-h2;
+        color: $color-dark;
+
+        span {
+            color: $color-orange;
+        }
+    }
+
+    .section-description {
+        font-size: $font-size-p;
+        color: $color-grey;
+    }
+}

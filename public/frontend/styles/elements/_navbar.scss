@@ -1,0 +1,22 @@
+.navbar {
+    .navbar-brand {
+        img {
+            width: 100px;
+        }
+    }
+
+    .navbar-nav {
+        gap: 20px;
+
+        .nav-item {
+            .nav-link {
+                color: $color-dark;
+                font-weight: 500;
+
+                &.active, &:hover {
+                    color: $color-orange;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.checkout {
+    .checkout-title {
+        font-size: $font-size-h4 + 2px;
+        font-weight: 700;
+    }
+
+    .card {
+        border-radius: $radius-large;
+
+        .card-title {
+            font-size: $font-size-h4;
+            font-weight: 600;
+            color: $color-dark;
+        }
+
+        .travel-title {
+            font-size: $font-size-h5;
+            font-weight: 500;
+            color: $color-dark;
+            margin-top: 10px;
+        }
+
+        .card-img {
+            height: 130px;
+            object-fit: cover;
+            border-radius: $radius-medium;
+        }
+    }
+}

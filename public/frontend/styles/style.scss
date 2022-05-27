@@ -1,0 +1,15 @@
+@import 'fonts';
+@import 'variable';
+@import 'global';
+
+@import 'atoms/button';
+@import 'atoms/input';
+
+@import 'elements/navbar';
+@import 'elements/testimonial-card';
+@import 'elements/footer';
+
+@import 'pages/homepage';
+@import 'pages/destinations';
+@import 'pages/detail-page';
+@import 'pages/checkout';
